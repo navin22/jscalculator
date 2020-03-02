@@ -7,16 +7,16 @@
 const operations = require('../Calculator/Operation/operations.js');
 const assert = require('assert');
 
-it('correctly calculates the sum of 1 and 3', () => {
-  assert.equal(operations.add(1, 3), 4);
+it('correctly calculates the sum of 3 and 3', () => {
+  assert.equal(operations.add(3, 3), 6);
 });
 
 it('correctly calculates the sum of -1 and -1', () => {
-  assert.equal(operations.add(-1, -1), -2);
+  assert.equal(operations.add(-2, -1), -3);
 });
 
 it('correctly calculates the difference of 33 and 3', () => {
-  assert.equal(operations.subtract(33, 3), 30);
+  assert.equal(operations.subtract(33, 4), 29);
 });
 
 it('correctly calculates the product of 12 and 12', () => {
